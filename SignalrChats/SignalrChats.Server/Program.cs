@@ -19,6 +19,7 @@ namespace SignalrChats.Server
 
 
             app.MapControllers();
+            app.MapHub<ChatHub>("/Chat");
 
             app.Run();
         }
