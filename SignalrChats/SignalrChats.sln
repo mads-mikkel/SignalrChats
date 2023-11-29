@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrChats.Endpoints", "SignalrChats.Endpoints\SignalrChats.Endpoints.csproj", "{AD5A7AE7-7107-4CD5-AAE3-5E0A0CF5FF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrChats.Server", "SignalrChats.Server\SignalrChats.Server.csproj", "{223021FB-5392-4322-A7A3-46D072E4AC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrChats.ConsoleClient", "SignalrChats.ConsoleClient\SignalrChats.ConsoleClient.csproj", "{FFED9187-CE7B-4E5D-8C63-7E6903519140}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD5A7AE7-7107-4CD5-AAE3-5E0A0CF5FF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5A7AE7-7107-4CD5-AAE3-5E0A0CF5FF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5A7AE7-7107-4CD5-AAE3-5E0A0CF5FF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5A7AE7-7107-4CD5-AAE3-5E0A0CF5FF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223021FB-5392-4322-A7A3-46D072E4AC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223021FB-5392-4322-A7A3-46D072E4AC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223021FB-5392-4322-A7A3-46D072E4AC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223021FB-5392-4322-A7A3-46D072E4AC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFED9187-CE7B-4E5D-8C63-7E6903519140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFED9187-CE7B-4E5D-8C63-7E6903519140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFED9187-CE7B-4E5D-8C63-7E6903519140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFED9187-CE7B-4E5D-8C63-7E6903519140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
