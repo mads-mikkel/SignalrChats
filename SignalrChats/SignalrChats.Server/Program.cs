@@ -9,6 +9,7 @@ namespace SignalrChats.Server
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddSignalR();
 
             var app = builder.Build();
 
