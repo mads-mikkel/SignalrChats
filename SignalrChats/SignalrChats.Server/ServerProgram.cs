@@ -1,6 +1,6 @@
 namespace SignalrChats.Server
 {
-    public class Program
+    public class ServerProgram
     {
         public static void Main(string[] args)
         {
@@ -10,6 +10,7 @@ namespace SignalrChats.Server
 
             builder.Services.AddControllers();
             builder.Services.AddSignalR();
+            builder.Services.AddLogging();
 
             var app = builder.Build();
 
